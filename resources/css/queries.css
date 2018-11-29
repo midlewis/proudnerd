@@ -1,0 +1,113 @@
+/* Big tablet to 1200px(widths smaller than 1140px row) */
+@media only screen and (max-width: 1200px) {
+    .title-text-box {
+    padding: 0 2%;
+    width: 100%;
+    }
+.row {
+ padding: 0 2%;   
+}
+
+}
+
+/* Small tablet to big tablet: from 767px to 1023px */
+@media only screen and (max-width: 1023px) {
+    body {
+     font-size: 18px;   
+    }
+    section {
+     padding: 60px 0;   
+    }
+    
+    .long-copy {
+    width: 80%;
+        margin-left: 10%;}
+        
+  
+.details-box {margin-top: 10px}
+.details-box:last-child { margin-top: 10px }   
+.works-step { margin-bottom: 40px; }
+.works-step:last-of-type { margin-bottom: 60px; }
+
+    .app-screen { width: 40%; }
+    
+    .icon-small { 
+    width: 17px; 
+    margin-right: 10px;
+    }
+    .city-feature { font-size: 90%; }
+}
+
+/*small phones to small tablets: from 481 to 767px*/
+@media only screen and (max-width: 767px) {
+    body { font-size: 16px; }
+    section { padding: 30px 0; }
+    .row, 
+    .title-text-box { padding: 0 4%; } 
+    .col { 
+    width: 100%;
+    margin: 0 0 4% 0;
+    }
+    
+    .main-nav { display: none; }
+
+    .mobile-nav-icon { display: inline-block; }
+     
+    .main-nav {
+        float: left;
+        margin-top: 35px;
+        margin-left: 25px;
+    }
+    .main-nav li {
+        display: block;
+    }
+    
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;  /*can't hover on a mobile phone*/
+        padding: 10px 0;
+        font-size: 100%;
+    }
+    .sticky .main-nav {margin-top: 10px;}
+    
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visted
+    {padding: 10px 0; }
+    
+    .sticky .mobile-nav-icon i {margin-top: 10px;}   
+    .sticky .mobile-nav-icon i {color: #555;}   
+
+    
+    
+    .long-copy {
+    width: 100%;
+    margin-left: 0%;}
+    h1 { font-size: 150% }
+    h2 { font-size: 150%; }
+    
+    
+.works-step div {
+    height: 40px;
+    width: 40px;
+    padding: 4px;
+    font-size: 120%;
+    margin-right: 15px;
+}
+    
+.steps-box:first-child {
+ text-align: center;
+}
+    
+    .works-step { margin-bottom: 20px; }
+    .works-step:last-of-type {
+    margin-bottom: 20px;
+    }
+    
+}
+
+/*small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+    section { padding: 25px 0; }
+    
+}
